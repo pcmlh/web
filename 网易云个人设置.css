@@ -42,13 +42,16 @@ div{
 }
 .qui-section1{
     border-top: 1px solid #000000;
-    overflow-y: scroll;
+    height: 50%;
+    background-color: firebrick;
 }
 .qui-section2{
     width: 80%;
-    float: right;
-    height: 100%;
+    left: 20%;
+    height: 80%;
     color: gray;
+    overflow-y: scroll;
+    position: fixed;
 }
 h1{
      font-weight: bolder;
